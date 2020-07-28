@@ -11,7 +11,14 @@
 <script>
 
     export default {
-        
+        data() {
+            return {
+                maxQuotes: 10,
+                quotes: [
+                    'Just a Quote to see something'
+                ]
+            }
+        }
     }
 </script>
 
